@@ -1,0 +1,20 @@
+# Ignorar archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDEs (VS Code, JetBrains, VS)
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Ignorar artefactos de compilación de .NET
+**/bin/
+**/obj/
+
+# Ignorar dependencias de Node.js (¡MUY IMPORTANTE!)
+node_modules/
+
+# Ignorar archivos de entorno (aquí guardaremos contraseñas)
+.env
+*.env.local
